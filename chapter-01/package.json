@@ -1,0 +1,44 @@
+{
+  "name": "chapter-01",
+  "description": "MVC 디자인 패턴을 이용한 트위터 스타일 애플리케이션 만들기",
+  "license": "MIT",
+  "author": {
+    "name": "agramar",
+    "url": "https://github.com/agramar/node-6-blueprint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agramar/node-6-blueprint"
+  },
+  "keywords": [
+    "MVC",
+    "Express Application",
+    "Expressjs"
+  ],
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.17.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.8",
+    "ejs": "~2.5.6",
+    "express": "~4.15.3",
+    "express-session": "^1.13.0",
+    "gravatar": "^1.4.0",
+    "mongoose": "^4.4.5",
+    "morgan": "~1.8.2",
+    "node-sass-middleware": "0.11.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "~2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}

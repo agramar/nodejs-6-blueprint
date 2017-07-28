@@ -1,0 +1,30 @@
+# 로그
+logs
+*.log
+
+# Runtime Editor
+pids
+*.pid
+*.seed
+
+# jscoverage/JSCover lib-cov으로 생성한 instrumneted lib을 위한 디렉터리
+lib-cov
+
+# 이스탄불 커버리지 같은 툴이 사용하는 커버리지 디렉터리
+coverage
+
+# 그런트 중간 저장소
+.grunt
+
+# node-waf 설정
+.lock-wscript
+
+# 컴파일된 바이너리 애드온
+build/Release
+
+# 디펜던시 디렉터리
+into-gitnode_modules
+
+# npm 디버그 로그
+npm-debug.log
+

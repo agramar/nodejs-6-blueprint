@@ -1,6 +1,6 @@
 // 모듈 불러오기
 var fs = require('fs');
-var mine = require('mime');
+var mime = require('mime');
 // 이메일에서 Gravatar 아이콘 얻기
 var gravatar = require('gravatar');
 // 비디오 모델 얻기
@@ -44,7 +44,7 @@ exports.uploadVideo = function (req, res) {
 	// 파일 읽기에 읽기 스트림 API 사용
 	src = fs.createReadStream(tempPath);
 	// 파일 쓰기에 쓰기 스트림 API 사용
-	dest = fs.createWriterStream(targetPath);
+	dest = fs.createWriteStream(targetPath);
 	src.pipe(dest);
 	// 에러 출력
 	src.on('error', function (err) {

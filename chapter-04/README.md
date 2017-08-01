@@ -1,9 +1,11 @@
-#MVC 디자인 패턴을 이용한 트위터 스타일 애플리케이션 만들기
+# 찍지 말고, 만들자: 사진가를 위한 앱
 
 ## 구동하기
 1. 루트에 .env 파일 생성하고 아래 내용 추가
 ````
-MONGODB_URL=mongodb://[MONGODB_URL]/mvc-app    
+PORT=9000
+CLOUDINARY_URL=[CLOUDINARY URL]
+MONGODB_URL=mongodb://[MONGODB URL]/myapp    
 ````
 2. 노드 모듈 설치
 ````

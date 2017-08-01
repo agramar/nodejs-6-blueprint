@@ -28,3 +28,6 @@ into-gitnode_modules
 # npm 디버그 로그
 npm-debug.log
 
+# 환경설정 파일
+.env
+

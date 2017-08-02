@@ -1,17 +1,21 @@
 Node.JS 6 Blueprints Book
 ---
-Official book repository. More information can be found here: [Packt Pub](https://www.packtpub.com/web-development/nodejs-6x-blueprints)
+* 공식 책 코드 저장소 : [nodejs-6-blueprints](https://github.com/newaeonweb/nodejs-6-blueprints)
+* 책에 대한 상세한 정보를 원하시는 분은 : [Packt Pub](https://www.packtpub.com/web-development/nodejs-6x-blueprints)
 
 ![Node.JS 6 Blueprints Book](http://www.newaeonweb.com.br/assets/images/Node.JS%206.x%20Blueprints.jpg)
 
 
-### What this book covers
+### 이 책을 통해 얻을 수 있는 것
+이 책을 통해 다양한 Node.js 애플리케이션을 만드는 방법과 MVC패턴을 사용한 기본적인 블로그 페이지에 대한 것들을 알아 볼 것이다.
+
 Throughout this book, we'll explore different ways to build Node.js Applications and understand what elements make up a basic blog page using MVC design patterns. We will learn how to deal with different types of view templates such as EJS and SWIG and more complex stuff using command-line tools to deploy and run applications.
 We will cover fundamental concepts of the Restful API architecture and client-side communication using jQuery, React.js and Angular.js.
 Although some points are advanced, you'll be prepared to understand the core concepts of Node.js applications, and how to deal with different types of database's such as MongoDB, MySQL, and the Express and Loopback frameworks.
 
 
 * Chapter 1, Building a Twitter-Like Application Using MVC Design Patterns, shows the main concepts of the MVC pattern applied to Node.js applications using the Express framework, mongoose ODM middleware, and MongoDB database. We see how to deal with user sessions and authentication using Passport middleware.
+* 1장, 
 
 * Chapter 2, Building a Basic Website Using MySQL Database, is a real dive into a Node.js application using a relational database. We see how to use the Sequelize (ORM) middleware with Mysql database, how to create database relationships, and how to use migration files.
 

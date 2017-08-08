@@ -1,0 +1,26 @@
+{
+  "name": "chapter-07",
+  "description": "Build a real time chat application with Node.js and Socket.io",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "serve-favicon": "^2.4.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-plumber": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

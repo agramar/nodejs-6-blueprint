@@ -10,7 +10,7 @@ exports.create = function (req, res) {
     }).then(function (user) {
         res.json(user);
     })
-}
+};
 
 // User 목록
 exports.list = function (req, res) {

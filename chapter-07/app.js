@@ -5,7 +5,6 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var dotenv = require('dotenv');
 
 // 애플리케이션 라우트 설정
 var routes = require('./routes/index');
@@ -19,7 +18,7 @@ app.locals.ENV = env;
 app.locals.ENV_DEVELOPMENT = env == 'development';
 
 // 뷰 엔진이 EJS를 사용하도록 설정
-app.set('view', path.join(__dirname + 'views'));
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // 파비콘 설정
@@ -71,7 +70,7 @@ app.set('port', process.env.PORT || 3000);
 
 // 서버 포트 설정 및 사용자 메시지 출력
 var server = app.listen(app.get('port'), function () {
-    console.log('Express server listening on port' + server.address().port);
+    console.log('Express server listening on port ' + server.address().port);
 });
 
 
@@ -85,26 +84,26 @@ var connections = [];
 // 연결 시 리스너 설정하기
 io.sockets.on('connection', function (socket) {
     connections.push(socket);
-    console.log('Connected:', connections.length);
+    console.log("Connected:", connections.length);
 
     // 사용자 연결 끊기 설정
     socket.on('disconnect', function (data) {
         if (socket.username) {
-            userList.splice(userList.indexOf(socket), 1);
+            userList.splice(userList.indexOf(socket.username), 1);
             updateUsernames();
         }
         connections.splice(connections.indexOf(socket), 1);
-        console.log('Disconnected:', connections.length);
+        console.log("Disconnected:", connections.length);
     });
 
     // 새 메시지 설정
     socket.on('send message', function (data) {
-        io.socket.emit('new message', { msg: data, user: socket.username });
+        io.sockets.emit('new message', {msg: data, user: socket.username});
     });
 
     // 새 사용자
     socket.on('new user', function (data, callback) {
-        callback(!data);
+        callback(!!data);
         socket.username = data;
         userList.push(socket.username);
         updateUsernames();

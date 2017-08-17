@@ -1,0 +1,31 @@
+{
+  "name": "chapter-09",
+  "description": "Node 6 blueprints book, chapter 09 example",
+  "main": "server/server.js",
+  "authors": [
+    "agramar <iamsjh1017@gmail.com>"
+  ],
+  "license": "MIT License",
+  "keywords": [
+    "Npm",
+    "building",
+    "process"
+  ],
+  "homepage": "https://agramar.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha",
+    "fancybox": "^3.1.20",
+    "angular": "angularjs#1.5.0",
+    "angular-resource": "1.5.0",
+    "angular-ui-router": "^1.0.6"
+  }
+}

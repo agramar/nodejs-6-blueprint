@@ -5,33 +5,28 @@ Node.JS 6 Blueprints Book
 
 ![Node.JS 6 Blueprints Book](http://www.newaeonweb.com.br/assets/images/Node.JS%206.x%20Blueprints.jpg)
 
-
 ### 이 책을 통해 얻을 수 있는 것
-이 책을 통해 다양한 Node.js 애플리케이션을 만드는 방법과 MVC패턴을 사용한 기본적인 블로그 페이지에 대한 것들을 알아 볼 것이다.
+이 책을 통해 다양한 Node.js 애플리케이션을 만드는 방법과 MVC 디자인 패턴을 사용한 기본적인 블로그 페이지에 대한 것들을 알아 볼 것이다.
+또한 EJS나 SWIG 아니면 더 복잡한 종류의 뷰 템플릿들과 애플리케이션 실행, 배포에 필요한 명령어 도구에 관해 다룰것이다. 
+RESTFul API 구조에 대한 개념과 jQuery, 앵귤러, 리액트를 사용해 클라이언트와 API간의 상호작용에 대해서도 배울 것이다.
+몇몇 부분은 금방 이해하기 힘들 수도 있지만, Node.js에 대한 핵심개념과 MongoDB, MySQL같은 DB를 다루는법 그리고 Express, Loopback같은 프레임워크를 다루는 법은 충분히 익힐 수 있을 것이다.
 
-Throughout this book, we'll explore different ways to build Node.js Applications and understand what elements make up a basic blog page using MVC design patterns. We will learn how to deal with different types of view templates such as EJS and SWIG and more complex stuff using command-line tools to deploy and run applications.
-We will cover fundamental concepts of the Restful API architecture and client-side communication using jQuery, React.js and Angular.js.
-Although some points are advanced, you'll be prepared to understand the core concepts of Node.js applications, and how to deal with different types of database's such as MongoDB, MySQL, and the Express and Loopback frameworks.
+* 1장, MVC 디자인 패턴을 이용한 트위터 스타일 애플리케이션 만들기
 
+* 2장, MySQL 데이터베이스를 이용한 기본 웹사이트 만들기
 
-* Chapter 1, Building a Twitter-Like Application Using MVC Design Patterns, shows the main concepts of the MVC pattern applied to Node.js applications using the Express framework, mongoose ODM middleware, and MongoDB database. We see how to deal with user sessions and authentication using Passport middleware.
-* 1장, 
+* 3장, 멀티미디어 애플리케이션 구축하기
 
-* Chapter 2, Building a Basic Website Using MySQL Database, is a real dive into a Node.js application using a relational database. We see how to use the Sequelize (ORM) middleware with Mysql database, how to create database relationships, and how to use migration files.
+* 4장, 찍지 말고, 만들자: 사진가를 위한 앱
 
-* Chapter 3, Building a Multimedia Application, teaches you how to deal with file storage and upload multimedia files such as images and videos. We also see how to save filenames on MongoDB and how to retrieve the files and show them on user interface. Then we
-learn how to deal with write and read using the Node.js streams API.
+* 5장, 몽고DB 지형 공간 쿼리를 사용한 매장 검색 애플리케이션 만들기
 
-* Chapter 4, Don't Take a Photograph, Make It – An App for Photographers, covers an application to upload, store, and manipulate images using the Cloudnary cloud services, and interacting with MongoDB. Also, we will see how to implement the Materialize.css framework for the user interface, and introduce the use of dot files to load configuration variable.
+* 6장, RESTful API 및 LoopBack.io로 고객 피드백 앱 구축하기
 
-* Chapter 5, Creating a Store Locator Application with MongoDB Geospatial Query, explains the core concepts of geospatial data and geolocation using MongoDB, and one of the most useful features to support GEOJSON data format, the 2dspheres indexes. You will understand how to integrate Google Maps API with a Node.js application.
+* 7장, Socket.IO를 사용하여 실시간 채팅 애플리케이션 만들기
 
-* Chapter 6, Building a Customer Feedback App with Restful API and Loopback.io, explores the loopback.io framework to build a Restful API. We will see the fundamentals of the Loopback CLI in order to create an entire application using the command line. You'll learn how to deal with the relationship between models using MongoDB and how to use React.js on the client side to communicate with the API.
+* 8장, 키스톤 CMS로 블로그 만들기
 
-* Chapter 7, Building a Real-Time Chat Application with Socket.io, shows the fundamentals of Socket.io events to build a chat application using Express and jQuery for the user interface. It covers the basic concept of task managers and how to use Gulp and livereload plugin.
+* 9장, Node.js 및 NPM을 사용하여 프런트엔드 프로세스 구축하기
 
-* Chapter 8, Creating a Blog with Keystone CMS, discusses the use of a CMS made entirely with Node.js, called Keystone. It's a deep dive into the Keystone application structure and how to extend the framework in order to create new models and views. Also, we will see how to customize and create new Keystone themes.
-
-* Chapter 9, Building a Frontend Process with Node.js and NPM, is especially interesting because we will create a Restful application using the loopback.io framework and AngularJS for the user interface. Also, we will use different building tools to concatenate, minify, and optimize images using the command line and Node Package Manager (NPM). And we will see how to use the Heroku toolbelt CLI to create and deploy the application.
-
-* Chapter 10, Creating and Deploying Using Continuous Integration and Docker, explores the continuous delivery development process with Node.js applications. You will learn how to integrate tools such as Github, Codeship, and Heroku into your development environment to deal with unit tests and automated deployment. This chpater also teaches you how to set up environment variables to protect your database credentials and how to create a full application using the concept of Docker containers.
+* 10장, 지속적 통합 및 도커를 이용한 생성과 배포

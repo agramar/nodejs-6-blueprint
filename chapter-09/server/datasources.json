@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "galleryDS": {
+    "host": "ds119223.mlab.com:19223",
+    "port": 27017,
+    "url": "mongodb://root:1234@ds119223.mlab.com:19223/agramar",
+    "database": "agramar",
+    "password": "1234",
+    "name": "galleryDS",
+    "user": "root",
+    "connector": "mongodb"
+  }
+}

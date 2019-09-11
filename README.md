@@ -3,9 +3,6 @@ Node.JS 6 Blueprints Book
 * 공식 책 코드 저장소 : [nodejs-6-blueprints](https://github.com/newaeonweb/nodejs-6-blueprints)
 * 책에 대한 상세한 정보를 원하시는 분은 : [Packt Pub](https://www.packtpub.com/web-development/nodejs-6x-blueprints)
 
-![Node.JS 6 Blueprints Book](http://www.newaeonweb.com.br/assets/images/Node.JS%206.x%20Blueprints.jpg)
-
-
 ### 이 책을 통해 얻을 수 있는 것
 이 책을 통해 다양한 Node.js 애플리케이션을 만드는 방법과 MVC패턴을 사용한 기본적인 블로그 페이지에 대한 것들을 알아 볼 것이다.
 

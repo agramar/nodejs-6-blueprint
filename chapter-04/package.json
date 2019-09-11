@@ -37,7 +37,7 @@
     "gulp-plumber": "^1.1.0",
     "jugglingdb": "^2.0.0-rc3",
     "jugglingdb-mongodb": "^0.1.1",
-    "method-override": "^2.3.0",
+    "method-override": "^2.3.10",
     "morgan": "^1.6.1",
     "serve-favicon": "^2.3.0",
     "swig": "^1.4.2"
